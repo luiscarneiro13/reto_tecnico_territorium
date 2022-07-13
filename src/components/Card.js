@@ -21,12 +21,10 @@ const Card = ({ item }) => {
 
     return (
         <Box ref={ref} alignItems="center">
-            <Box margin={5} rounded="lg" overflow="hidden" borderColor="coolGray.300" borderWidth="1">
-                <Box>
-                    <AspectRatio w="100%" ratio={16 / 9}>
-                        <Image source={{ uri: item.thumbnail }} alt="image" />
-                    </AspectRatio>
-                </Box>
+            <Box margin={5} rounded="lg" borderRadius={15} overflow="hidden" borderColor="coolGray.300" borderWidth="1">
+                <AspectRatio w="100%" ratio={4 / 2}>
+                    <Image source={{ uri: item.thumbnail }} alt="image" />
+                </AspectRatio>
                 <Stack padding={5}>
                     <Text fontFamily='body' style={styles.category} >{item.category}</Text>
                     <Text fontFamily='body' fontWeight={600} style={styles.title}>{item.title}</Text>

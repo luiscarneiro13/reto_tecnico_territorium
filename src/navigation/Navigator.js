@@ -27,6 +27,7 @@ export default function Navigator() {
         <Stack.Navigator screenOptions={{
             header: props => <GradientHeader {...props} />,
             headerStyle: styles.headerStyle,
+            cardStyle:{backgroundColor:'white'}
         }}>
             <Stack.Screen name="Principal" component={PrincipalScreen} />
         </Stack.Navigator>
