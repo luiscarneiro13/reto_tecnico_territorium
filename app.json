@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "reto_tecnico",
-    "slug": "reto_tecnico",
+    "name": "territorium",
+    "slug": "reto_tecnico_territorium",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
